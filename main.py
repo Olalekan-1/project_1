@@ -17,6 +17,10 @@ from kivy.uix.widget import Widget
 
 Builder.load_file("menu.kv")
 
+""" 
+ A galxay game, tutorial practice
+ """
+
 
 class MainWidget(RelativeLayout):
     from actions import on_keyboard_down, on_keyboard_up, on_touch_down, on_touch_up
