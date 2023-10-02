@@ -37,13 +37,13 @@ class MainWidget(RelativeLayout):
     NB_of_Hor_lines = 17
     Horizontal_lines = []
 
-    y_speed = .2
+    y_speed = .6
     current_offset = 0
     current_y_loop = 0
 
     current_offset_x = 0
     current_speed_x = 0
-    SPEED_X = 1
+    SPEED_X = 2.2
 
 
     tiles = []
