@@ -21,6 +21,10 @@ Builder.load_file("menu.kv")
  A galxay game, tutorial practice
  """
 
+class GalaxyApp(App):
+    def Build(self):
+        return MainWidget()
+
 
 class MainWidget(RelativeLayout):
     from actions import on_keyboard_down, on_keyboard_up, on_touch_down, on_touch_up
@@ -332,8 +336,11 @@ class MainWidget(RelativeLayout):
         self.menu_widget.opacity = 0
 
 
+<<<<<<< HEAD
 class GalaxyApp(App):
     def Build(self):
         return MainWidget()
+=======
+>>>>>>> 85aa948e4d64ae2a16b610de472e22cb3ec0b9d2
 
 GalaxyApp().run()
